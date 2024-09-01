@@ -10,7 +10,7 @@ const HeroSection = () => {
     <main className="py-16 mt-16 md-flex md:shrink-0 ">
       <Head>
         <link rel="icon" href="/potato.png" sizes="any" />
-        <title>Shaun's Website</title>
+        <title>Shaun's Personal Website</title>
       </Head>
       <div className="grid grid-cols-1 md:grid-cols-12 ">
           <motion.div
