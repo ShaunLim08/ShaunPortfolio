@@ -3,11 +3,15 @@ import TypeWriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
+import Head from "next/head";
 
 const HeroSection = () => {
   return (
     <main className="py-16 mt-16 md-flex md:shrink-0 ">
+      <Head>
+        <link rel="icon" href="/potato.png" sizes="any" />
+        <title>Shaun's Website</title>
+      </Head>
       <div className="grid grid-cols-1 md:grid-cols-12 ">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
