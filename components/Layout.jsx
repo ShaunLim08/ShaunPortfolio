@@ -1,13 +1,6 @@
+"use client";
 import React from "react";
 import Navbar from "./Navbar";
-
-export const metadata = {
-    title: "Shaun's Website",
-    descrtipion: "This is a website for Shaun",
-    icons: {
-        icon: "/potato.png",
-    },
-}
 
 const Layout = ({ children }) => {
     return(
