@@ -50,8 +50,9 @@ const TAB_DATA = [
         id: "achievements",
         content: (
           <ul className="list-disc pl-2">
+                <li>APUBCC Buildstation 2024 - Champion</li>
                 <li>Monash Hackfest 2024 - 3rd Place</li>
-                <li>Google Workspace Hackathon 2024 - Chamption</li>
+                <li>Google Workspace Hackathon 2024 - Champion</li>
                 <li>Blockchain For Good Malaysian Inter-Varsity Hackathon - Top 10 Finalist</li>
                 <li>APUBCC Sparkathon - 2nd Runner Up</li>
                 <li>APAC Web 2.5 Ideathon - E-Commerce Track Winner</li>
