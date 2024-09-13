@@ -4,9 +4,9 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/**/*.{ts,tsx}', // Added from the second configuration
+    './src/**/*.{ts,tsx}',
   ],
-  darkMode: 'class', // Included darkMode setting from the second configuration
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -24,10 +24,20 @@ module.exports = {
           },
         },
       },
+      colors: {
+        // Define your light mode colors here
+        light: {
+          background: '#ffffff',
+          text: '#333333',
+          primary: '#3490dc',
+          secondary: '#ffed4a',
+          accent: '#f6993f',
+        },
+      },
     },
   },
   plugins: [
-    addVariablesForColors, // Added from the second configuration
+    addVariablesForColors,
   ],
 };
 

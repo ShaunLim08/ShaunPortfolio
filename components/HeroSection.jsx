@@ -55,13 +55,13 @@ const HeroSection = () => {
             </p>
               <Link
                 href="#projects" 
-                className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
+                className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-red-600 hover:bg-yellow-600">
                 <span className="text-xl text-white">Jump to Projects</span>
               </Link>
              
               <Link
                 href ="https://drive.google.com/file/d/1SGGXwvWY7Qw2Iuo4iAi30S27vERDUlQw/view?usp=drive_link" target="_blank" 
-                className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
+                className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-yellow-600 hover:bg-red-600">
                 <span className="text-xl text-white">View my Resume</span>
               </Link>
           </motion.div>
