@@ -8,7 +8,7 @@ const projectData = [
         title: "blink.fund",
         description: "This is my team's submission for APUBCC Buildstation Ideathon 2024. It is a decentralized quadratic funding platform that implements Solana Blockchain Links (Blinks).",
         image: "projects/blinkfund.png",
-        gitUrl: "https://github.com/ShaunLim08/blink.fund-Buildstation"
+        gitUrl: "https://github.com/Laikaiyong/blink.fund"
     },
     {
         id: 2,
