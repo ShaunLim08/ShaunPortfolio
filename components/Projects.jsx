@@ -7,7 +7,7 @@ const projectData = [
         id: 1,
         title: "SHIFT",
         description: "This is my team's project for ETHK2024 Hackathon. It is a community platform to make sure multiple events don't clash while implementing quadratic funding on the side",
-        image: "projects/shift.png",
+        image: "projects/shift.jpg",
         gitUrl: "https://github.com/Laikaiyong/SHIFT"
     },
     {
