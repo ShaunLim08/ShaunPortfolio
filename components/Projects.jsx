@@ -4,9 +4,16 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
+        id: 10,
+        title: "MrBeans",
+        description: "This is my team's project for MCMC Datathon 2024. Mr Beans as a SME that optimizes on courier services specifically on delivering coffee beans using AI/ML.",
+        image: "projects/mrbeans.png",
+        gitUrl: "https://github.com/laikaiyong/mr-beans"
+    },
+    {
         id: 1,
         title: "SHIFT",
-        description: "This is my team's project for ETHK2024 Hackathon. It is a community platform to make sure multiple events don't clash while implementing quadratic funding on the side",
+        description: "This is my team's project for ETHKL2024 Hackathon. It is a community platform to make sure multiple events don't clash while implementing quadratic funding on the side",
         image: "projects/shift.jpg",
         gitUrl: "https://github.com/Laikaiyong/SHIFT"
     },
