@@ -8,7 +8,7 @@ const projectData = [
         title: "Butter",
         description: "This is my team's project for ETH Global Bangkok 2024. Where we optimize side events for people using AI and we make the event experience buttery smooth.",
         image: "projects/Butter.png",
-        gitUrl: "https://github.com/laikaiyong/mr-beans"
+        gitUrl: "https://github.com/ShaunLim08/Vitalik-Butterin"
     },
     {
         id: 10,
