@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
+        id: 12,
+        title: "SETTLE",
+        description: "This is my team's project for Setel Hackathon 2024. We have implemented AI routes, various types of predictions and highlighting icons within our platform.",
+        image: "projects/settle.png",
+        gitUrl: "https://github.com/Laikaiyong/SETTLE"
+    },
+    {
         id: 11,
         title: "Butter",
         description: "This is my team's project for ETH Global Bangkok 2024. Where we optimize side events for people using AI and we make the event experience buttery smooth.",

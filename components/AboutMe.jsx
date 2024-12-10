@@ -50,7 +50,8 @@ const TAB_DATA = [
         id: "achievements",
         content: (
           <ul className="list-disc pl-2">
-                <li>ETHKL2024 Top 5 Finalist + WorldCoin 3rd Place in Best Implmentation of World ID</li>
+                <li>Setel Hackathon 2024 - 2nd Runner Up</li>
+                <li>ETHKL2024 Top 5 Finalist + WorldCoin 3rd Place in Best Implementation of World ID</li>
                 <li>APUBCC Buildstation 2024 - Champion</li>
                 <li>Monash Hackfest 2024 - 3rd Place</li>
                 <li>Google Workspace Hackathon 2024 - Champion</li>
@@ -68,7 +69,7 @@ const TAB_DATA = [
                 <li>Running</li>
                 <li>Badminton</li>
                 <li>Cars</li>
-                <li>skibidi</li>
+                <li>Providing Value to Shareholders</li>
           </ul>
         ),
     },
