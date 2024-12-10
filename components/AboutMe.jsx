@@ -86,17 +86,17 @@ const AboutMe = () => {
     };
     //1a
     return(
-        <section className="text-white grid" id="aboutMe">
+        <section className="text-black grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
                     <img src="/shaun.jpg" alt="shaun" width={450} height={450} style={{ borderRadius: "25px" }}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
+                    <h1 className="text-4xl font-bold text-black mb-4">About Me</h1>
                     <p className="text-base text-justify lg:text-lg">I am a Year 2 Computer Science student with a passion for Web3 and technology. My experiences usually revolve
                     around community building, project management, and participating in hackathons. I am always looking for opportunities to learn and grow, and I am excited to see where my journey will take me.
                     </p>
-                    <div className="flex flex-row mt-8">
+                    <div className="flex flex-row mt-8 text-black">
 {/* 1e */}
                         <TabButton 
                         selectTab={() => handleTabChange("skills")}
