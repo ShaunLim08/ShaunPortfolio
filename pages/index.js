@@ -23,6 +23,7 @@ export default function Home() {
         <AchievementsSection />
         <AboutMe />
         <Projects />
+        <InfiniteMovingCardsDemo />
         <EmailSection />
         </main>
         <Footer />

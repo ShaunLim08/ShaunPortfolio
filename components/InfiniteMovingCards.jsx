@@ -1,45 +1,50 @@
-// "use client";
+"use client";
 
-// import React from "react";
-// import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
+import React from "react";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
-// export function InfiniteMovingCardsDemo() {
-//   return (
-//     (<div
-//       className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-//       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
-//     </div>)
-//   );
-// }
+export default function InfiniteMovingCardsDemo() {
+  return (
+    <div className="flex flex-col items-center justify-center py-10 bg-white dark:bg-black">
+      <h2 className="text-3xl font-bold text-center mb-4 text-gray-800 dark:text-gray-200">
+        Publications
+      </h2>
+      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
+      </div>
+    </div>
+  );
+}
 
-// const testimonials = [
-//   {
-//     quote:
-//       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-//     name: "Charles Dickens",
-//     title: "A Tale of Two Cities",
-//   },
-//   {
-//     quote:
-//       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-//     name: "William Shakespeare",
-//     title: "Hamlet",
-//   },
-//   {
-//     quote: "All that we see or seem is but a dream within a dream.",
-//     name: "Edgar Allan Poe",
-//     title: "A Dream Within a Dream",
-//   },
-//   {
-//     quote:
-//       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-//     name: "Jane Austen",
-//     title: "Pride and Prejudice",
-//   },
-//   {
-//     quote:
-//       "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-//     name: "Herman Melville",
-//     title: "Moby-Dick",
-//   },
-// ];
+const testimonials = [
+  {
+    quote:
+      "My First Devcon, But Not the Last",
+    name: "Shaun Lim",
+    title: "A Tale of Two My Experience @ DC7 SEA + ETHGlobal Bangkok",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1732865455309/791b185b-6b9c-45fd-b685-7f3714653f6b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp", 
+    link: "https://shaunlim08.hashnode.dev/my-experience-dc7-sea-ethglobal-bangkok"
+  },
+  {
+    quote:
+      "This is a transcribed article from a Blockchain Boleh Podcast Session held by APUBCC that discusses about hackathons in general.",
+    name: "Shaun Lim",
+    title: "Blockchain Boleh Series #3:How to kickstart your first Hackathon?",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1688580763028/cfd1a217-a69a-4f88-a620-652927ad9ad2.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp", 
+    link: "https://apubcc.hashnode.dev/blockchain-boleh-series-3how-to-kickstart-your-first-hackathon"
+  },
+  {
+    quote: "A First Glance at Layer 2 Blockchain",
+    name: "Shaun Lim",
+    title: "Beginner's Guide to Layer 2 Chains",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1682087013351/d05c9d6c-ab4a-41f3-94d3-fd0eef9b6a10.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp", 
+    link: "https://apubcc.hashnode.dev/beginners-guide-to-layer-2"
+  },
+  {
+    quote: "The Basics of Game-Fi",
+    name: "Shaun Lim",
+    title: "Game-Fi in a Nutshell",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1679733233460/0b66135b-92bc-4086-b0bf-daa7d350e9a0.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp", // Larger blog cover image
+    link: "https://apubcc.hashnode.dev/game-fi-in-a-nutshell"
+  }
+];
