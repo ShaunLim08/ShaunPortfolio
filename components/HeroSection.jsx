@@ -60,7 +60,7 @@ const HeroSection = () => {
               </Link>
              
               <Link
-                href ="https://drive.google.com/file/d/1vdk1JkjGFFUqPWbHlPksX2z3EVsqfnlL/view?usp=sharing" target="_blank" 
+                href ="https://drive.google.com/file/d/1uUlfuoIlrdOnJBESZEOVB1B-hcaDE76q/view?usp=sharing" target="_blank" 
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-yellow-600 hover:bg-red-600">
                 <span className="text-xl text-black">View my Resume</span>
               </Link>
@@ -73,7 +73,7 @@ const HeroSection = () => {
           >
           <div className="w-[400px] h-[400px] relative z-0 pb-10">
             <img
-              src="/shaun vertical.JPG"
+              src="/tngdpic.png"
               alt="shaun pic"
               className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 pb-10"
               width={350}

@@ -50,6 +50,7 @@ const TAB_DATA = [
         id: "achievements",
         content: (
           <ul className="list-disc pl-2">
+                <li>BNB Hack Q4 2024 Top 10</li>
                 <li>Setel Hackathon 2024 - 2nd Runner Up</li>
                 <li>ETHKL2024 Top 5 Finalist + WorldCoin 3rd Place in Best Implementation of World ID</li>
                 <li>APUBCC Buildstation 2024 - Champion</li>

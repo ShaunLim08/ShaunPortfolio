@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
+        id: 13,
+        title: "CoinMaster",
+        description: "This is my team's project for BNB Hack 2024 Q4. We have developed an AI Agentic Trading Bot while utilizing various APIs such as CoinGecko API to have real-time insights while trading.",
+        image: "projects/coinmaster.png",
+        gitUrl: "https://github.com/Laikaiyong/CoinMaster"
+    },
+    {
         id: 12,
         title: "SETTLE",
         description: "This is my team's project for Setel Hackathon 2024. We have implemented AI routes, various types of predictions and highlighting icons within our platform.",
