@@ -39,10 +39,10 @@ const HeroSection = () => {
                     .typeString`<span style="color:#FC3C36">CS Student</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#FA3805">Developer</span>`
+                    .typeString`<span style="color:#FA3805">Product Manager</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#F8EB07">Web3 Contributor</span>`
+                    .typeString`<span style="color:#F8EB07">Web3 Buildr</span>`
                     .pauseFor(1500)
                     .deleteAll()
                     .start();

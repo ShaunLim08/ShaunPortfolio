@@ -17,6 +17,7 @@ const TAB_DATA = [
                 <li>CSS</li>
                 <li>React.js</li>
                 <li>Next.js</li>
+                <li>Product Management</li>
           </ul>
         ),
     },
@@ -25,13 +26,27 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
+            <li>Product Manager Intern @ TNG Digital</li>
             <li>R&D, Community, Bootcamp Team @ APUBCC</li>
             <li>Core Committee @ Notion APU</li>
-            <li>Public Relations @ APUBCC Devmatch Hackathon</li>
-            <li>Project Manager @ APUBCC Web3 Developer: Coding the Unknown</li>
-            <li>Speaker + Event @ APUBCC Web3 101: More than Cryptocurrency</li>
-            <li>Mentor @ APUBCC Sparkathon</li>
-            <li>and more...</li>
+          </ul>
+        ),
+    },
+    {
+        title: "Certifications",
+        id: "certifications",
+        content: (
+          <ul className="list-disc pl-2">
+                <li><a href="https://www.credly.com/badges/4397a50a-797b-4151-926d-277b2dd94146/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">AWS Certified AI Practitioner</a></li>
+                <li><a href="https://www.credly.com/badges/9a26798a-ccad-4c00-9d63-c4b41bd01c7d/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">AWS Certified AI Practitioner Early Adopter</a></li>
+                <li><a href="https://www.credly.com/badges/0d58d17b-918a-4c05-89f2-2db09e3fc416/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">GitHub Foundations</a></li>
+                <li><a href="https://api.badgr.io/public/assertions/0S5K6WtMRBiFwoMCmQgbxA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Postman API Fundamentals Student Expert</a></li>
+                <li><a href="https://www.credly.com/badges/590d4a30-4f14-4baf-8186-98c661e0dd4f/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Notion Advanced Badge</a></li>
+                <li><a href="https://www.credly.com/badges/7c27d8c6-4ffd-4c94-8099-6a8e9e9d9756/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Notion Settings & Sharing Badge</a></li>
+                <li><a href="https://www.credly.com/badges/8d90d44f-8336-4f5c-92d4-0976f85ec2c2/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">CCNA: Introduction to Networks</a></li>
+                <li><a href="https://www.credly.com/badges/0148dca6-cee8-4e9d-9ef7-19a1abd56d07/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Microsoft Certified: Azure AI Fundamentals</a></li>
+                <li><a href="https://www.credly.com/badges/73589a13-c0df-4278-a738-32b916e32a69/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Microsoft Certified: Azure Data Fundamentals</a></li>
+                <li><a href="https://www.credly.com/badges/6e3609c9-dcb0-41a0-a612-c960721b1e20/public_url" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Microsoft Certified: Azure Fundamentals</a></li>
           </ul>
         ),
     },
@@ -114,6 +129,14 @@ const AboutMe = () => {
                         >
                             {" "}
                             Experiences{" "}
+                        </TabButton>
+
+                        <TabButton 
+                        selectTab={() => handleTabChange("certifications")}
+                        active= {tab === "certifications"}
+                        >
+                            {" "}
+                            Certifications{" "}
                         </TabButton>
 
                         <TabButton 
