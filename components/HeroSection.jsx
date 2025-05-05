@@ -12,7 +12,7 @@ const HeroSection = () => {
         <link rel="icon" href="/potato.png" sizes="any" />
         <title>Shaun's Personal Website</title>
       </Head>
-      <div className="grid grid-cols-1 md:grid-cols-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-12 px-4 md:px-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -60,7 +60,7 @@ const HeroSection = () => {
               </Link>
              
               <Link
-                href ="https://drive.google.com/file/d/1uUlfuoIlrdOnJBESZEOVB1B-hcaDE76q/view?usp=sharing" target="_blank" 
+                href ="https://drive.google.com/file/d/1vtAIrKmXlAEJMDYDpOnD6M3Bo05r15tu/view?usp=sharing" target="_blank" 
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-yellow-600 hover:bg-red-600">
                 <span className="text-xl text-black">View my Resume</span>
               </Link>

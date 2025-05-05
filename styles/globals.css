@@ -6,17 +6,13 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
 }
-
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 .scrolled-header {
@@ -31,9 +27,39 @@ body {
 
 /* Firefox, edge: let the scroll bar display none */
 ::-webkit-scrollbar {
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Custom scrollbar for tab navigation */
+.scrollbar-thin::-webkit-scrollbar {
+  display: block;
+  height: 4px;
+}
+
+.scrollbar-thumb-gray-300::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 9999px;
+}
+
+.scrollbar-track-transparent::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Animation for infinite moving cards */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

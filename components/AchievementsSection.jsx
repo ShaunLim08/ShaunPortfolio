@@ -1,37 +1,38 @@
-import React from "react";
-
 const achievementsList = [
     {
-        metric: "Projects",
-        value: "12",
+      metric: "Projects",
+      value: "14",
     },
     {
-        metric: "Awards",
-        value: "7",
+      metric: "Awards",
+      value: "9",
     },
     {
-        metric: "Years",
-        value: "2-ish",
-    }
-];
-
-const AchievementsSection = () => {
+      metric: "Years",
+      value: "3-ish",
+    },
+  ]
+  
+  const AchievementsSection = () => {
     return (
-        <div className="xl:gap-3 sm:py-3 xl:px-12">
-            <div className="border-[#33353F] border rounded-md py-8 px-16 flex flex-row items-center justify-between">
-                {achievementsList.map((achievement) => {
-                    return (
-                        <div className="flex flex-col items-center justify-center mx-4">
-                            <h2 className="text-black text-4xl font-bold">
-                                {achievement.value}
-                            </h2>
-                            <p className="text-black text-base">{achievement.metric}</p>
-                        </div>
-                    );
-                })}
+      <section className="w-full py-4 sm:py-6 md:py-8">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8">
+          <div className="border-[#33353F] border rounded-md py-4 sm:py-6 md:py-8 px-4 sm:px-8 md:px-16">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-4">
+              {achievementsList.map((achievement, index) => {
+                return (
+                  <div key={index} className="flex flex-col items-center justify-center w-full sm:w-auto py-4 sm:py-0">
+                    <h2 className="text-black text-3xl sm:text-4xl font-bold">{achievement.value}</h2>
+                    <p className="text-black text-sm sm:text-base mt-1">{achievement.metric}</p>
+                  </div>
+                )
+              })}
             </div>
+          </div>
         </div>
-    );
-};
-
-export default AchievementsSection;
+      </section>
+    )
+  }
+  
+  export default AchievementsSection
+  

@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
+        id: 14,
+        title: "Frenz.fi",
+        description: "This is my team's project for ETH Global Taipei 2025. We have developed a Social Currency Launchpad with AI features integrated utilizing Uniswap, Celo and Nodit.",
+        image: "projects/frenzfi.jpg",
+        gitUrl: "https://github.com/Laikaiyong/Frenz.Fi"
+    },
+    {
         id: 13,
         title: "CoinMaster",
         description: "This is my team's project for BNB Hack 2024 Q4. We have developed an AI Agentic Trading Bot while utilizing various APIs such as CoinGecko API to have real-time insights while trading.",

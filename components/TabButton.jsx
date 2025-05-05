@@ -1,17 +1,17 @@
-import React from "react";
+"use client"
 
-//1c
-const TabButton = ({ active, selectTab, children }) => {
-  const buttonClass = active 
-    ? "text-red-500 border-b border-red-500" 
-    : "text-black";
+const TabButton = ({ active, selectTab, children, ...props }) => {
   return (
-    <button onClick={selectTab}>
-      <p className={`mr-5 font-semibold hover:text-gray-400 ${buttonClass}`}>
-        {children}
-      </p>
+    <button
+      onClick={selectTab}
+      className={`mr-3 font-semibold hover:text-black pb-1 whitespace-nowrap ${
+        active ? "border-b-2 border-black text-black" : "text-gray-500"
+      }`}
+      {...props}
+    >
+      {children}
     </button>
-  );
-};
+  )
+}
 
-export default TabButton;
+export default TabButton
