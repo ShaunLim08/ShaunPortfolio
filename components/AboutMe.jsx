@@ -38,6 +38,16 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           <a
+            href="https://drive.google.com/file/d/1IVIgmBMz8m62q9GJmua-9nD9pyLN3JGE/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            HCCDA - Tech Essentials
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.credly.com/badges/4397a50a-797b-4151-926d-277b2dd94146/public_url"
             target="_blank"
             rel="noopener noreferrer"
@@ -154,6 +164,7 @@ const TAB_DATA = [
     id: "achievements",
     content: (
       <ul className="list-disc pl-2">
+        <li>Blockchain Visualization – Mapping the Solana Ecosystem Bounty 1st Place</li>
         <li>ETH Global Taipei 2025 Celo AI Agent Track 2nd Runner Up</li>
         <li>BNB Hack Q4 2024 Top 10</li>
         <li>Setel Hackathon 2024 - 2nd Runner Up</li>

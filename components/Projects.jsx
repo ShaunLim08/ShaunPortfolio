@@ -4,6 +4,20 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
+        id: 16,
+        title: "Dumplings",
+        description: "This project is for Solana Breakout Hackathon 2025. It is an AI Agent as a Service that allows users to create their own Web3 AI agents and easily allow them to easily integrate into their applications.",
+        image: "projects/dumplings.jpg",
+        gitUrl: "https://github.com/Laikaiyong/Dumpling"
+    },
+    {
+        id: 15,
+        title: "DoxxScan.sol",
+        description: "This project is for REDACTED Hackathon 2025. It is a tool that allows users to utilize different on-chain tools to find out information about a wallet address.",
+        image: "projects/doxxscan.jpg",
+        gitUrl: "https://github.com/Laikaiyong/DoxxScan.Sol"
+    },
+    {
         id: 14,
         title: "Frenz.fi",
         description: "This is my team's project for ETH Global Taipei 2025. We have developed a Social Currency Launchpad with AI features integrated utilizing Uniswap, Celo and Nodit.",
