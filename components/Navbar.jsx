@@ -1,16 +1,16 @@
-"use client"
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
+'use client';
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
-    <nav className="sticky top-0 left-0 w-full border-b border-[#4d4e53] shadow-sm bg-black z-10">
+    <nav className="sticky top-0 left-0 w-full border-b border-[#4d4e53] shadow-sm bg-black z-50">
       <div className="px-4 sm:px-6 md:px-12 h-16 sm:h-20 md:h-24 flex justify-between items-center text-white relative">
         {/* Logo */}
         <a href="#" className="md:inline hidden">
@@ -22,19 +22,32 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex justify-end space-x-4">
-          <a href="#aboutMe" className="p-4 hover:text-gray-300 transition-colors">
+          <a
+            href="#aboutMe"
+            className="p-4 hover:text-gray-300 transition-colors"
+          >
             About
           </a>
-          <a href="#projects" className="p-4 hover:text-gray-300 transition-colors">
+          <a
+            href="#projects"
+            className="p-4 hover:text-gray-300 transition-colors"
+          >
             Projects
           </a>
-          <a href="#contact" className="p-4 hover:text-gray-300 transition-colors">
+          <a
+            href="#contact"
+            className="p-4 hover:text-gray-300 transition-colors"
+          >
             Contact
           </a>
         </div>
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden text-white focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
+        <button
+          className="md:hidden text-white focus:outline-none"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -68,7 +81,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,11 +1,11 @@
 const achievementsList = [
     {
       metric: "Projects",
-      value: "14",
+      value: "16",
     },
     {
       metric: "Awards",
-      value: "9",
+      value: "11",
     },
     {
       metric: "Years",
