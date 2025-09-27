@@ -38,6 +38,16 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           <a
+            href="https://www.credly.com/badges/685bb3a9-4d3b-4115-abef-5e60c9aed4eb/public_url"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            AWS Certified Cloud Practicioner
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.credly.com/badges/92b48f4e-9b43-4177-92d8-ae18dedea11b"
             target="_blank"
             rel="noopener noreferrer"
@@ -174,6 +184,7 @@ const TAB_DATA = [
     id: 'achievements',
     content: (
       <ul className="list-disc pl-2">
+        <li>Devmatch Hackathon 2025 The Graph Track: 4th Place</li>
         <li>
           Blockchain Visualization – Mapping the Solana Ecosystem Bounty 1st
           Place
