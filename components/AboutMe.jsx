@@ -203,7 +203,7 @@ const TAB_DATA = [
           Blockchain For Good Malaysian Inter-Varsity Hackathon - Top 10
           Finalist
         </li>
-        <li>APUBCC Sparkathon - 2nd Runner Up</li>
+        <li>APUBCC Sparkathon Gnosis Track - 2nd Runner Up</li>
         <li>APAC Web 2.5 Ideathon - E-Commerce Track Winner</li>
       </ul>
     ),
