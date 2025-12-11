@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import Head from 'next/head';
 import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision';
 import { FlipWords } from '@/components/ui/flip-words';
 
@@ -12,10 +11,6 @@ const HeroSection = () => {
   return (
     <BackgroundBeamsWithCollision>
       <main className="py-10 pt-16 md:pt-18 md-flex md:shrink-0 pb-10 min-h-screen flex items-start justify-center">
-        <Head>
-          <link rel="icon" href="/potato.png" sizes="any" />
-          <title>Shaun's Personal Website</title>
-        </Head>
         <div className="flex flex-col items-center justify-center text-center px-4 md:px-0 max-w-4xl mx-auto">
           {/* Image Section - Moved to top */}
           <motion.div

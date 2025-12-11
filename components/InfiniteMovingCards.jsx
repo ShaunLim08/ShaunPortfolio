@@ -61,8 +61,7 @@ const testimonials = [
     name: 'Shaun Lim',
     title:
       'The Great Clash Royale Outage: A Post-Battle Analysis (Not about Clash Royale*)',
-    image:
-      'https://media.licdn.com/dms/image/v2/D4E12AQEcHq_prBn0kw/article-cover_image-shrink_720_1280/B4EZoIAWYPIUAI-/0/1761070903201?e=1764201600&v=beta&t=-Pxy6v_xSXfu-CvaO7-5J8LNA3wizW8Ngwn2xwrWcHY',
+    image: 'public/clashroyaleaws.png',
     link: 'https://www.linkedin.com/pulse/great-clash-royale-outage-post-battle-analysis-shaun-lim-r59te/?trackingId=HLrHeqCAS7yyrtZp4SNccQ%3D%3D',
   },
 ];
