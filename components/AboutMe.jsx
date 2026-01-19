@@ -25,9 +25,10 @@ const TAB_DATA = [
     id: 'experiences',
     content: (
       <ul className="list-disc pl-2">
+        <li>Product Manager @ CoinW</li>
+        <li>Notion Campus Leader @ APU</li>
         <li>Product Manager Intern @ TNG Digital</li>
         <li>R&D, Community, Bootcamp Team @ APUBCC</li>
-        <li>Core Committee @ Notion APU</li>
       </ul>
     ),
   },
