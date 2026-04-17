@@ -6,7 +6,7 @@ import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-w
 import { FlipWords } from '@/components/ui/flip-words';
 
 const HeroSection = () => {
-  const words = ['CS Student', 'Product Manager', 'Web3 Builder'];
+  const words = ['Web3 Builder', 'Product Manager', 'Community Builder'];
 
   return (
     <BackgroundBeamsWithCollision>
@@ -68,7 +68,7 @@ const HeroSection = () => {
               </Link>
 
               <Link
-                href="https://drive.google.com/file/d/1XBkWSbl4qoajzByPjmzsGgtXBjlJBfaG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1TLDG7dWUpPerbHk7RoMQMjWgbahKbz5f/view?usp=sharing"
                 target="_blank"
                 className="px-6 py-3 rounded-full border-solid border-2 border-yellow-600 hover:bg-red-600 transition-colors relative z-10"
               >
