@@ -3,6 +3,14 @@ import ProjectCard from './ProjectCard';
 
 const projectData = [
   {
+    id: 19,
+    title: 'TenorFi',
+    description:
+      'This project is for ETHGlobal NYC 2026. It is a On-Chain Fixed Funding Rate dApp for Perpetual Markets on Hyperliquid',
+    image: 'projects/tenorfi.png',
+    gitUrl: 'https://github.com/0xYudhishthra/TenorFi',
+  },
+  {
     id: 18,
     title: 'MedPal',
     description:

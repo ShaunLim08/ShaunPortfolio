@@ -185,6 +185,7 @@ const TAB_DATA = [
     id: 'achievements',
     content: (
       <ul className="list-disc pl-2">
+        <li>ETHGlobal New York 2026 1inch Bounty Track: 2nd Runner Up</li>
         <li>Devmatch Hackathon 2025 The Graph Track: 4th Place</li>
         <li>
           Blockchain Visualization – Mapping the Solana Ecosystem Bounty 1st
@@ -253,7 +254,7 @@ const AboutMe = () => {
   useEffect(() => {
     if (tabsRef.current) {
       const activeTab = tabsRef.current.querySelector(
-        `button[data-tab="${tab}"]`
+        `button[data-tab="${tab}"]`,
       );
       if (activeTab) {
         // Calculate position to center the active tab
@@ -282,11 +283,16 @@ const AboutMe = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h1 className="text-4xl font-bold text-black mb-4">About Me</h1>
           <p className="text-base text-justify lg:text-lg">
-            I am a Year 3 Computer Science student with a passion for Web3 and
-            Cloud technology. My experiences usually revolve around community
-            building, product management, and participating in hackathons. I am
-            always looking for opportunities to learn and grow, so feel free to
-            reach out to me!
+            I am a Product and Software Engineering professional dedicated to
+            bridging the gap between complex engineering solutions and strategic
+            product goals. With a strong background in Web3, cloud technologies,
+            and fintech systems, I bring a dual perspective to the development
+            lifecycle. My expertise spans managing backend trading operations
+            and directing technical API support to building award-winning
+            decentralized applications across numerous hackathons. Beyond
+            driving product lifecycles, I am a dedicated technical community
+            leader passionate about scaling blockchain ecosystems and fostering
+            developer education.
           </p>
 
           {/* Scrollable tabs container */}
