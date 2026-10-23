@@ -3,19 +3,28 @@ import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
 
 export default function InfiniteMovingCardsDemo() {
   return (
-    <section className="w-full overflow-hidden py-10 bg-white dark:bg-black">
-      <div className="container mx-auto px-4 sm:px-6 md:px-8">
-        <h2 className="text-3xl font-bold text-center mb-4 text-gray-800 dark:text-gray-200">
-          Publications
-        </h2>
-        <div className="flex justify-center">
-          <InfiniteMovingCards
-            items={testimonials}
-            direction="right"
-            speed="slow"
-            pauseOnHover={true}
-          />
+    <section className="w-full py-16 sm:py-24 bg-white dark:bg-[#080808] border-b-2 border-black dark:border-white transition-colors duration-150" id="publications">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 mb-8">
+        <div className="font-mono text-xs uppercase tracking-widest text-[#FF3B00] mb-2 font-bold">
+          // SECTION_04 // ARTICLES_AND_ESSAYS
         </div>
+        <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-2 pb-4 border-b-2 border-black dark:border-white">
+          <h2 className="font-serif text-5xl sm:text-7xl font-normal text-black dark:text-white leading-tight">
+            Publications
+          </h2>
+          <div className="font-mono text-xs text-black dark:text-[#A3A3A3] uppercase">
+            ESSAYS // CASE_ANALYSES
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+          pauseOnHover={true}
+        />
       </div>
     </section>
   );
@@ -61,7 +70,7 @@ const testimonials = [
     name: 'Shaun Lim',
     title:
       'The Great Clash Royale Outage: A Post-Battle Analysis (Not about Clash Royale*)',
-    image: 'public/clashroyaleaws.png',
+    image: '/clashroyaleaws.png',
     link: 'https://www.linkedin.com/pulse/great-clash-royale-outage-post-battle-analysis-shaun-lim-r59te/?trackingId=HLrHeqCAS7yyrtZp4SNccQ%3D%3D',
   },
 ];

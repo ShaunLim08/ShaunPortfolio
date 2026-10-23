@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import AchievementsSection from '../components/AchievementsSection';
 import InfiniteMovingCardsDemo from '../components/InfiniteMovingCards';
 
-//Server: not found error handler
+// Server: not found error handler
 const HeroSection = dynamic(() => import('../components/HeroSection'), {
   ssr: false,
 });
@@ -18,6 +18,35 @@ export default function Home() {
   const pageDescription =
     'Portfolio of Shaun Lim - Computer Science Student, Product Manager, and Web3 Builder. Explore my projects in blockchain, web development, and innovative tech solutions.';
   const ogImage = `${siteUrl}/shaunsquare.jpg`;
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Shaun Lim',
+    url: siteUrl,
+    image: ogImage,
+    jobTitle: 'Product Manager & Software Engineer',
+    alumniOf: {
+      '@type': 'EducationalOrganization',
+      name: 'Asia Pacific University',
+    },
+    knowsAbout: [
+      'Computer Science',
+      'Product Management',
+      'Web3',
+      'Blockchain',
+      'Decentralized Applications',
+      'Fintech Systems',
+      'Next.js',
+      'React.js',
+    ],
+    sameAs: [
+      'https://github.com/ShaunLim08',
+      'https://www.linkedin.com/in/shaun-lim-bb563b222/',
+      'https://www.instagram.com/_shaun_shaun_shaun_/',
+      'https://shaunlim08.hashnode.dev/',
+    ],
+  };
 
   return (
     <>
@@ -53,14 +82,22 @@ export default function Home() {
         {/* Additional SEO */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Content-Language" content="en" />
+
+        {/* JSON-LD Structured Data for LLMs and Search Engine Crawlers */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </Head>
 
-      <HeroSection />
-      <AchievementsSection />
-      <AboutMe />
-      <Projects />
-      <InfiniteMovingCardsDemo />
-      <EmailSection />
+      <main>
+        <HeroSection />
+        <AchievementsSection />
+        <AboutMe />
+        <Projects />
+        <InfiniteMovingCardsDemo />
+        <EmailSection />
+      </main>
       <Footer />
     </>
   );

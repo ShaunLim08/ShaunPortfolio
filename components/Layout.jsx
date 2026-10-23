@@ -5,12 +5,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <title>Shaun's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shaun Lim - CS Student | Product Manager | Web3 Builder</title>
       </Head>
-      <div className="min-h-screen w-full">
+      <div className="min-h-screen w-full bg-white dark:bg-[#080808] text-black dark:text-[#F3F3F3] transition-colors duration-150">
         <Navbar />
-        <main className="w-full px-4 sm:px-6 md:px-8 lg:px-12">{children}</main>
+        <div className="w-full">{children}</div>
       </div>
     </>
   )
