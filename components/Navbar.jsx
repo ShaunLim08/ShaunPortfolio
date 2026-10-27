@@ -91,7 +91,7 @@ const Navbar = () => {
 
           {/* Resume CTA */}
           <Link
-            href="https://drive.google.com/file/d/11Q86K030dLMm5wEkbtX0BTpLpAhlaJeT/view?usp=sharing"
+            href="https://drive.google.com/file/d/17C3VP7rZ9hzt5CyhxSZaEKTC4-fWwTHB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="h-9 px-4 bg-black text-white dark:bg-white dark:text-black font-mono text-xs uppercase font-bold border border-black dark:border-white flex items-center gap-1.5 hover:bg-[#FF3B00] hover:border-[#FF3B00] dark:hover:bg-[#FF3B00] dark:hover:border-[#FF3B00] dark:hover:text-white transition-colors"

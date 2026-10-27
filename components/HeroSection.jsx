@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
         {/* Asymmetrical 2-Column Broadsheet Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
-          
+
           {/* Left Column (65% / 7.5 cols): Editorial Typography & Action */}
           <div className="lg:col-span-7 flex flex-col justify-start text-left">
             {/* Architectural Index Tag */}
@@ -61,7 +61,7 @@ const HeroSection = () => {
               </Link>
 
               <Link
-                href="https://drive.google.com/file/d/11Q86K030dLMm5wEkbtX0BTpLpAhlaJeT/view?usp=sharing"
+                href="https://drive.google.com/file/d/17C3VP7rZ9hzt5CyhxSZaEKTC4-fWwTHB/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="brutalist-btn-outline px-6 py-3.5 text-xs uppercase tracking-wider flex items-center justify-center gap-2 border-2 border-black dark:border-white"
